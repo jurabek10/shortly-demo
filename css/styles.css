@@ -250,12 +250,14 @@ main {
 
 .index-url-shortener-features-wrapper__url-shortener {
     margin-top: -84px;
+    margin-bottom: 120px;
 }
 
 /* URL-SHORTENER-FORM */
 .url-shortener__form {
     display: flex;
     padding: 52px 64px;
+    margin-bottom: 24px;
     border-radius: 10px;
     background-color: #4B3F6B;
     background-image: url("../img/form-bg.svg");
@@ -308,4 +310,40 @@ main {
     line-height: 18px; /* 112.5% */
     letter-spacing: 0.109px;
     color: var(--error-color);
+}
+
+.url-shortener__results {
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.url-shortener__result {
+    display: flex;
+    align-items: center;
+    padding: 16px 24px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: var(--title-color);
+}
+
+.url-shortener__result:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.url-shortener__original-link {
+    width: 100%;
+    margin-right: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.url-shortener__short-link {
+    text-decoration: none;
+    color: var(--accent-color);
+    margin-right: 24px;
+}
+
+.url-shortener__copy-button {
+    min-width: 103px;
 }
