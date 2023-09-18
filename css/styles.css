@@ -65,7 +65,7 @@ img {
     color: #fff;
     font-weight: bold;
     font-size: 20px;
-    line-height: 30px;
+    line-height: normal;
     text-decoration: none;
     text-align: center;
     cursor: pointer;
@@ -193,3 +193,40 @@ main {
 .site-header__login-link:active {
     opacity: 0.6;
 }
+
+
+/* HERO */
+.hero {
+    padding-top: 92px;
+    padding-bottom: 222px;
+    background-image: url("../img/working_with_computer.svg");
+    background-repeat: no-repeat;
+    background-position: left calc(50% + 450px) top 0;
+}
+
+.hero__inner {
+    max-width: 565px;
+}
+
+.hero__title {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: var(--title-color);
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90px; /* 112.5% */
+    letter-spacing: -2px;
+}
+
+.hero__text {
+    margin-top: 0;
+    margin-bottom: 40px;
+    color: var(--text-color);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 163.636% */
+    letter-spacing: 0.15px;
+}
+
