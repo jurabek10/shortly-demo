@@ -1,12 +1,14 @@
 /* CUSTOM PROPS */
-/* :root {
-    --title-color: #34313D;
+:root {
+    --text-color: #34313D;
     --main-color: #9E9AA8;
     --link-color: #BFBFBF;
-    --main-content-bg-color: #EFF1F7;
-    --foter-bg-color: #232127;
-    --button-bg-color: #2BD0D0;
-} */
+    --light-bg-color: #EFF1F7;
+    --dark-bg-color: #232127;
+    --accent-color: #2BD0D0;
+    --accent-hover-color: #9AE3E3;
+    --error-color: #F46363;
+} 
 
 
 /* GLOBAL STYLES */
@@ -32,8 +34,8 @@ body {
     font-weight: 500;
     line-height: 26px;
     font-family: "Poppins", "Arial", sans-serif;
-    background-color: var(--main-content-bg-color);
-    color: var(--main-color);
+    background-color: #fff;
+    color: var(--text-color);
 }
 
 img {
