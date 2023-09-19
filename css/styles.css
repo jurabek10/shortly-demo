@@ -397,6 +397,7 @@ main {
     font-weight: 700;
     font-style: normal;
     letter-spacing: -1px;
+    text-transform: capitalize;
 }
 
 .index-features__top-info {
@@ -474,9 +475,39 @@ main {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    text-transform: capitalize;
 }
 
 .index-feature__info {
     margin: 0;
     font-style: normal; 
+}
+
+
+/* CTA */
+.cta {
+    padding-top: 57px;
+    padding-bottom: 57px;
+    background-image: url("../img/cta-bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.cta__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.cta__title {
+    margin-top: 0;
+    margin-bottom: 32px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 120% */
+    letter-spacing: -1px;
 }
