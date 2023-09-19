@@ -567,6 +567,7 @@ main {
     font-style: normal;
     line-height: normal;
     letter-spacing: -0.234px;
+    text-transform: capitalize;
 }
 
 .site-footer__menu-link:hover {
